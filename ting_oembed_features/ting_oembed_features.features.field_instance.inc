@@ -17,6 +17,12 @@ function ting_oembed_features_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'caroussel_modal' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
       'collection_list' => array(
         'label' => 'above',
         'settings' => array(),
@@ -35,6 +41,12 @@ function ting_oembed_features_field_default_field_instances() {
         'settings' => array(),
         'type' => 'ting_oembed_default',
         'weight' => 69,
+      ),
+      'search_page_accordion_holdings_info' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 8,
       ),
       'search_result' => array(
         'label' => 'above',

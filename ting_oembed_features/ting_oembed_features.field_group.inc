@@ -21,7 +21,7 @@ function ting_oembed_features_field_group_info() {
   $field_group->parent_name = '';
   $field_group->data = array(
     'label' => 'Material content',
-    'weight' => '6',
+    'weight' => '13',
     'children' => array(
       0 => 'field_ting_oembed_oembed',
     ),
@@ -29,7 +29,7 @@ function ting_oembed_features_field_group_info() {
     'format_settings' => array(
       'label' => 'Material content',
       'instance_settings' => array(
-        'classes' => '',
+        'classes' => 'back',
         'description' => '',
         'show_label' => '1',
         'label_element' => 'h2',
